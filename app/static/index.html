@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hamzaa Chat</title>
+  <title>Teep Africa Chatbot</title>
   <style>
     body {
       background-color: #f2f2f2;
@@ -90,9 +90,9 @@
           body: JSON.stringify({ query: query })
         });
         const data = await response.json();
-        appendMessage("Hamzaa", data.answer);
+        appendMessage("Teep", data.answer);
       } catch (error) {
-        appendMessage("Hamzaa", "Error: Unable to get a response. Please try again.");
+        appendMessage("Teep", "Error: Unable to get a response. Please try again.");
       }
     }
 
