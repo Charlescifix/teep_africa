@@ -1,0 +1,74 @@
+# ========== Python ==========
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-log.txt
+
+# ========== PyCharm ==========
+.idea/
+*.iml
+workspace.xml
+
+# ========== Virtual Environment ==========
+.venv/
+.env
+env/
+venv/
+ENV/
+*env/
+**/env/
+**/venv/
+*.env.*
+
+# ========== Logs and Cache ==========
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+# ========== OS-Specific ==========
+.DS_Store
+Thumbs.db
+*.swp
+
+# ========== Tests ==========
+.tox/
+.nox/
+coverage.*
+*.cover
+htmlcov/
+
+# ========== Docker ==========
+docker-compose.override.yml
+Dockerfile
+
+# ========== LangChain/Vector Store ==========
+*.faiss
+faiss_index/
+
+# ========== API Keys and Secrets ==========
+openai_key.txt
+config.yaml
+secrets.json
+*.key
+*.pem
+*.crt
+
+# ========== Jupyter Notebooks ==========
+.ipynb_checkpoints/
+
+# ========== FastAPI ==========
+*.sqlite3
+*.db
+
+# ========== Misc ==========
+node_modules/
+npm-debug.log*
+.yarn-integrity
+.cache/
